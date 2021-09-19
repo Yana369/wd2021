@@ -1,0 +1,311 @@
+$col1: hsl(56, 93%, 57%);
+$col2: hsl(36, 100%, 62%);
+$col3: hsl(330, 86%, 61%);
+$col4: hsl(258, 100%, 48%);
+$col5: hsl(9, 100%, 52%);
+$col6: hsl(0, 0%, 0%);
+$font-size: 15px;
+$font-size1: 20px;
+$font-family:'Raleway', cursive;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        margin: 0;
+        font-family: $font-family;
+        font-size: $font-size;
+        color: $col6;
+    }
+    .container{
+        background-color: $col2;
+        width: 100%;
+        max-width: 1500px;
+        margin: 30 auto;
+    }
+    .intro{
+        width: 100%;
+        height: 10vh;
+        background-image: url("css\img\2.jpg");
+        background-size: cover;
+    }
+    .header{
+        position: absolute;
+        width: 100%;
+        padding-top: 10px;
+        nav{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: $font-size;
+            .nav-link{
+                margin-left: 300px;
+                display: inline-block;
+                margin: 30px;
+                color: $col3;
+                font-size: $font-size1;
+                text-decoration: none;
+                
+            }
+            .nav-link:hover{
+                color: $col4;
+            }
+            
+        }
+    }
+    .section{
+        margin: 50px 0;
+    
+    } 
+    .section-header{
+        background-color: $col1;
+        margin: 0 auto 40px;
+        width: 100%;
+        max-width: 950px;
+        text-align: center;
+        
+        .section-title{
+            text-transform: uppercase;
+        }
+    
+        #section-text{
+            font-size: $font-size;
+            color: $col3;
+        }
+    }
+    .bio-photo{
+        display: flex;
+        justify-content: space-between;
+    
+        .photos{
+    width: 1000px;
+    margin-left: 90px;
+    margin-top: 10px;
+        }
+    }
+    #line{
+        border: 0.5px solid $col2;
+    }
+    .roles-header{
+        margin: 0 auto 40px;
+        width: 100%;
+        max-width: 950px;
+        text-align: center;  
+        .roles-title{
+            text-transform: uppercase;
+        }
+    } 
+    .content{  
+        display: flex;
+        justify-content: space-between;
+        .content-image{
+            width: 500px;
+              margin-left: 400px; 
+              margin-top: 0px;
+              margin-right: 20px;
+        }
+    
+        .roles-text{
+            margin-left: 50px;
+            width: 35%;
+            color: $col5;
+            font-size: 25px;
+    
+        }
+        .content-list{
+            list-style: square;
+        }
+    }
+    #line1{
+        border: 0.5px solid $col2;
+    }
+    .award-header{
+        margin: 0 auto 40px;
+        width: 100%;
+        max-width: 950px;
+        text-align: center;
+        
+        .award-title{
+            text-transform: uppercase;
+        }
+    
+    }
+    .content-award{
+        display: flex;
+        justify-content: space-between;
+        .content-award-image{
+            margin-right: 30px;
+        } 
+        .award-text{
+            color: $col4;
+            font-size: 25px;
+        }
+        .content-list{
+            list-style: square;
+        }
+    }
+    #line2{
+        border: 0.5px solid $col6;
+    }
+    .life-header{
+        margin: 0 auto 40px;
+        width: 100%;
+        max-width: 950px;
+        text-align: center;
+        
+        .life-title{
+            text-transform: uppercase;
+        }
+        .life-text{
+            font-size: $font-size1;
+            color: $col6;
+    
+        }
+    }
+    .content-life{
+        text-align: center;
+        color: $col6;
+        .life-photo{
+            align-items: center;
+            margin-top: 10px;
+        }
+    }
+    
+    #line3{
+        border: 0.5px solid $col2;
+    }
+    
+    .button-up{
+        background-color: $col2;
+        margin-left: 50px;
+        border-radius: 5px;
+        padding: 20px;
+        border: none;
+        box-shadow: 5px $col3;
+        a{
+            text-decoration:none;
+            color: rgb(233, 5, 100);
+        }
+    }
+    .cont {
+        background-color: $col2;
+        width: 1500px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .footer{
+        margin: 10px;
+        color: $col6;
+        align-items: center;
+    }
+    @media (max-width:1200px){
+        .intro{
+            width: 100%;
+            height: 100vh;
+            background-image: url("../img/tony-stark-1996594.jpg");
+            background-size: cover;
+            background-position: 50%;
+        }
+        .header{
+            nav{
+                justify-content: center;
+                .nav-link{
+                    margin: 15px;  
+                }   
+            }
+        }
+        .section{
+            margin: 20px 0;
+        
+        }
+        .section-header{
+            margin: 0 auto 20px;
+            width: 100%;
+            #section-text{
+                font-size: $font-size;
+                color: $col1;
+            }
+        }
+        
+        .bio-photo{
+    
+            .photos{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 15px;
+                margin-right: 15px;
+                img{
+                    width: 100%;
+                }
+            }
+        
+        }
+        .roles-header{
+            margin: 0 auto 20px;
+        
+            
+            .roles-title{
+                text-transform: uppercase;
+            }
+        
+        }
+        .content{  
+            .content-image{
+                margin-right: 30px;
+                margin-left: 10px;
+                img{
+                    width: 50%;
+                }
+            }
+        
+            .roles-text{
+                margin-left: 10px;
+                
+                color: $col3;
+                font-size: $font-size;
+        
+            }
+        }
+        .award-header{
+            margin: 5 auto 20px;
+        }  
+        .content-award{
+            display: flex;
+            justify-content: space-between;
+            .content-award-image{
+                margin-right: 15px;
+                img{
+                    width: 100%;
+                }
+            }
+            .award-text{
+                color: $col6;
+                font-size: $font-size;
+            }
+        }
+        .life-header{
+            margin: 0 auto 20px;
+            .life-text{
+                font-size: $font-size;
+                color: $col6;
+            }
+        }
+        .content-life{
+            text-align: center;
+            color: $col6;
+            margin-left: 15px;
+            margin-right: 15px;
+            .life-photo{
+                align-items: center;
+                margin-top: 50px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .button-up{
+            margin: 15px;
+        }
+    }
