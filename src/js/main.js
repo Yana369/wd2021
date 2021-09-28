@@ -39,7 +39,7 @@ function removeCartItem(event) {
 
 
 function purchaseClicked() {
-    alert('Дякуємо за покупку')
+    alert(`Дякуємо за покупку`)
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)

@@ -53,9 +53,10 @@ html, body {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    
 
     .content-section {
-        margin: 1em;
+        margin-left: 0em;
     }
 }
 
@@ -212,36 +213,65 @@ html, body {
     margin-right: 25px;
 }
 
-
+.cart-totall {
+    margin-left: 300px;
+}
 
 .cart-total {
     text-align: end;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 270px;
 
     .cart-total-title {
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2em;
         color: $color0;
         margin-right: 20px;
     }
     
     .cart-total-price {
         color: $color0;
-        font-size: 1.1em;
+        font-size: 2em;
     }
 }
+
+.contact{
+   
+    border-radius: 50px;
+    background-color: $color20;
+    margin-bottom: 50px;
+    
+}
+
+.container{
+    h2{
+        padding-top: 15px ;
+        color: black;
+        margin-right: 10px;
+    }
+    h4{
+        padding-top: 10px ;
+        color: black;
+        margin-left: 10px;
+    }
+    p{
+        
+        padding-top: 10px ;
+        color: black;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
 
 .footer{
 display: block;
 border-top: $color0 2px solid;
 padding: 15px;
 background-color: rgb(240, 97, 240);
-color: $color0
+color: $color0;
 }
 
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
-}
+}}
