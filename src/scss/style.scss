@@ -91,7 +91,7 @@ html, body {
     .shop-item {
         margin: 30px;
     
-        .shop-i-t {
+        .shop-item-title {
             display: block;
             width: 100%;
             text-align: center;
@@ -101,11 +101,11 @@ html, body {
             margin-bottom: 20px;
         }
         
-        .shop-i-i {
+        .shop-item-image {
             height: 250px;
         }
         
-        .shop-i-d {
+        .shop-item-details {
             display: flex;
             align-items: center;
             padding: 5px;
