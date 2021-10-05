@@ -1,11 +1,5 @@
 [
     {"name":"Ivan",
     "age": 55,
-    "hobbies":["TV shows","gardening"]},
-    {"name":"Maria",
-    "age": 13,
-    "hobbies":["painting","dolls"]},
-    {"name":"Vasyl",
-    "age": 30,
-    "hobbies":["car driving","basketball"]}   
+    "hobbies":["singing","dancing"]}
 ]

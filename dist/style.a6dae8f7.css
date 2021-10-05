@@ -1,0 +1,72 @@
+body {
+  background-color: #f7a6f0;
+  color: #0d0d0d;
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: 190px;
+  background-color: #ff009d;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+
+.header {
+  color: #0d0d0d;
+  background-color: #ff009d;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  justify-content: center;
+  border-radius: 60px;
+}
+.header h1 {
+  padding-left: 510px;
+}
+
+.body {
+  color: #0d0d0d;
+  border-radius: 30px;
+}
+.body h1 {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.sources {
+  color: #0d0d0d;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.sources .weather a {
+  text-decoration: none;
+  color: #0d0d0d;
+  margin-left: 10px;
+}
+.sources .weather a:hover {
+  color: #ff009d;
+}
+.sources .weather li {
+  list-style: none;
+  margin-right: 50px;
+}
+.sources .Internal li {
+  list-style: none;
+  justify-content: center;
+  margin-right: 150px;
+}
+.sources .Internal .Placeholder a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+.sources .Internal .Placeholder a:hover {
+  color: #ff009d;
+}
+.sources .Internal .Placeholder li {
+  list-style: none;
+  margin-right: 300px;
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */
